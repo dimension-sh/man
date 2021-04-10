@@ -2,7 +2,7 @@
 
 Summary: A collection of manpages for the Dimension community
 Name: dimension-man-pages
-Version: 1.0
+Version: 1.1
 Release: 1%{?dist}
 License: GPL
 Group: Applications/Internet
@@ -36,5 +36,7 @@ rm -rf %{buildroot}
 %{_mandir}/*
 
 %changelog
+* Sat Apr 10 2021 Andrew Williams <andy@tensixtyone.com> 1.1
+- Updated dimension documentation for new apps.
 * Fri Jul 10 2020 Andrew Williams <andy@tensixtyone.com> 1.0
 - Initial RPM package
