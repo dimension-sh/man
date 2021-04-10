@@ -11,5 +11,5 @@ help:
 
 install:
 	install -m 0755 -d $(DESTDIR)$(PREFIX)/share/man/man7
-	gzip -9 dimension.7 -c >$(DESTDIR)$(PREFIX)/share/man/man7/dimension.7.gz
-	gzip -9 gettingstarted.7 -c >$(DESTDIR)$(PREFIX)/share/man/man7/gettingstarted.7.gz
+	gzip -9 man/man7/dimension.7 -c >$(DESTDIR)$(PREFIX)/share/man/man7/dimension.7.gz
+	gzip -9 man/man7/gettingstarted.7 -c >$(DESTDIR)$(PREFIX)/share/man/man7/gettingstarted.7.gz
